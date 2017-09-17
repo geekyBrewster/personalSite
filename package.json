@@ -1,11 +1,17 @@
 {
-  "name": "personal page",
+  "name": "",
   "version": "1.0.0",
   "description": "pesonal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
   },
   "author": "Amanda Kirchner",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
 }
