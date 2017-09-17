@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Geeky Brewster</title>
+  <title>Welcome</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/main.css">
@@ -12,9 +12,9 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <div class="">
+  <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <i class="fa fa-flask" aria-hidden="true"></i>
         <i class="fa fa-beer" aria-hidden="true"></i>
         Geeky Brewster
@@ -24,14 +24,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="./templates/aboutme.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Projects</a>
+            <a class="nav-link" href="./templates/projects.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://geekybrewsterblog.wordpress.com/">Blog</a>
@@ -46,27 +46,27 @@
 
   <!-- Jumbotron -->
   <div class="jumbotron col">
-    <div class="container">
+    <div class="container" id="jumboTextBox">
       <h1 class="display-3">Amanda Kirchner</h1>
       <p class="lead">Hi, there! I'm a Javascript Developer who likes</br>
         problem solving through code and knitting</br>
         while enjoying a good craft beer.</p>
-        <a href="#"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-2x fa-wordpress" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>
+        <a class="mediaLink" href="https://github.com/geekyBrewster"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+        <a class="mediaLink" href="https://www.linkedin.com/in/kirchneramanda/"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
+        <a class="mediaLink" href="https://geekybrewsterblog.wordpress.com/"><i class="fa fa-2x fa-wordpress" aria-hidden="true"></i></a>
+        <a class="mediaLink" href="https://twitter.com/geeky_brewster"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+        <a class="mediaLink" href="#"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>
       </div>
     </div>
 
     <!-- Content Rows -->
     <div class="container-fluid card-deck contentRowDark row">
       <div class="card text-center com-sm-6 col-md-3">
-        <img class="card-img-top icon" src="../assets/browser_sm.png" alt="Card image cap">
+        <img class="card-img-top icon" src="../assets/browser.png" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">Lifelong Learner</h4>
           <p class="card-text">Leaving behind 7 years of teaching creative arts to dive headlong into software development.</p>
-          <a href="#" class="btn btn-primary">About Me</a>
+          <a href="./templates/aboutme.html" class="btn btn-primary">About Me</a>
         </div>
       </div>
       <div class="card text-center com-sm-6 col-md-3">
@@ -74,7 +74,7 @@
         <div class="card-body">
           <h4 class="card-title">Problem Solver</h4>
           <p class="card-text">Finding solutions through code and teamwork. Bugs in code are simply another problem to solve.</p>
-          <a href="#" class="btn btn-primary">View Projects</a>
+          <a href="./templates/projects.html" class="btn btn-primary">View Projects</a>
         </div>
       </div>
       <div class="card text-center com-sm-6 col-md-3">
@@ -82,7 +82,7 @@
         <div class="card-body">
           <h4 class="card-title">Giant Nerd</h4>
           <p class="card-text">Working with Javascript to build full stack web applications, including one to track homebrewed beer.</p>
-          <a href="#" class="btn btn-primary">Technologies Used</a>
+          <a href="#" class="btn btn-primary disabled">Technologies Used</a>
         </div>
       </div>
       <div class="card text-center com-sm-6 col-md-3">
@@ -90,7 +90,7 @@
         <div class="card-body">
           <h4 class="card-title">Secretly a Vulcan</h4>
           <p class="card-text">Helping others learn, despite being an introvert. Logical, organized, and a stickler for code comments.</p>
-          <a href="#" class="btn btn-primary">Visit my blog</a>
+          <a href="https://geekybrewsterblog.wordpress.com/" class="btn btn-primary">Visit my blog</a>
         </div>
       </div>
     </div>

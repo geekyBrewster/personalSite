@@ -1,16 +1,14 @@
 * {
   /*border: 1px solid blue;*/
 }
+
 body {
   background: linear-gradient(90deg, #4E3E4F, #281C29);
+  font-family: 'Poppins', sans-serif;
 }
 
-i {
-  color: #9CDEFF;
-  margin: 10px 10px;
-}
-.navbar i {
-  margin: 0;
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;
 }
 
 footer{
@@ -19,22 +17,50 @@ footer{
   margin-right: 20px;
 }
 
+.btn{
+  background-color: #C87891;
+  border: none;
+}
+.btn:hover {
+  background-color: #94415B;
+  border: none;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #634C53;
+  border: none;
+}
+
+/* NAVBAR STYLING */
+.navbar i {
+  color: #9CDEFF;
+  margin: 0;
+}
+
+/* JUMBOTRON STYLING */
 .jumbotron {
   background-image: url('../assets/shibuyaAtNight.jpg');
   background-size: cover;
   color: #fff;
   text-align: right;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 2px #000;
   margin-bottom: 5px;
 }
 
-.linkBox {
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  text-align: center;
+.lead{
+  font-size: 1.4em;
+  color: yellow;
 }
 
+#jumboTextBox{
+  margin-right: 50px;
+}
+
+.mediaLink {
+    color: #9CDEFF;
+    margin: 10px 10px;
+}
+
+/* CONTENT CARDS STYLING */
 .card {
   background: none;
   color: #fff;
@@ -50,17 +76,45 @@ footer{
   margin: 0 auto;
 }
 
-.btn{
-  background-color: #C87891;
-}
-.btn:hover {
-  background-color: #94415B;
-}
-
 .contentRowLight {
   background-color: rgba(200, 120, 145, 0.5);
   min-height: 250px;
 }
 .contentRowDark {
   min-height: 250px;
+}
+
+/* ABOUT ME STYLING */
+.title {
+  color: #9CDEFF;
+}
+
+.imgframe {
+    background-color: rgba(200, 120, 145, 0.5);
+    padding: 12px;
+    border: 1px solid #94415B;
+    border-radius: 5px;
+}
+
+.strengths{
+  color: #C87891;
+}
+
+.aboutMeText {
+  color: #fff;
+}
+
+.hobbyImg {
+  padding: 5px;
+}
+
+#myImage {
+  width: 75%;
+  margin: 10px 10px;
+}
+
+/* ABOUT ME STYLING */
+.pinkTitle {
+  color: #C87891;
+  text-align: center;
 }
