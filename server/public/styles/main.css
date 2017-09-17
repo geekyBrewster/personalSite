@@ -1,0 +1,66 @@
+* {
+  /*border: 1px solid blue;*/
+}
+body {
+  background: linear-gradient(90deg, #4E3E4F, #281C29);
+}
+
+i {
+  color: #9CDEFF;
+  margin: 10px 10px;
+}
+.navbar i {
+  margin: 0;
+}
+
+footer{
+  color: rgb(200,120,145);
+  text-align: right;
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background-image: url('../assets/shibuyaAtNight.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: right;
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 5px;
+}
+
+.linkBox {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: none;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.icon{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn{
+  background-color: #C87891;
+}
+.btn:hover {
+  background-color: #94415B;
+}
+
+.contentRowLight {
+  background-color: rgba(200, 120, 145, 0.5);
+  min-height: 250px;
+}
+.contentRowDark {
+  min-height: 250px;
+}
