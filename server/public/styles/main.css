@@ -84,6 +84,22 @@ footer{
   min-height: 250px;
 }
 
+/* MODAL STYLING */
+.modal-body{
+  background-color: #4E3E4F;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: left;
+}
+.modal-header, .modal-footer{
+  background-color: #634C53;
+  color: #fff;
+}
+
+.close {
+  color: #C87891;
+}
+
 /* ABOUT ME STYLING */
 .title {
   color: #9CDEFF;

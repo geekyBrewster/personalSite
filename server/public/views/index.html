@@ -82,7 +82,45 @@
         <div class="card-body">
           <h4 class="card-title">Giant Nerd</h4>
           <p class="card-text">Working with Javascript to build full stack web applications, including one to track homebrewed beer.</p>
-          <a href="#" class="btn btn-primary disabled">Technologies Used</a>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#techModal">
+            Technologies known
+          </button>
+          <!-- MODAL W/ TECHNOLOGIES KNOWN -->
+          <!-- Modal -->
+          <div class="modal fade" id="techModal" tabindex="-1" role="dialog" aria-labelledby="techModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="techModalLabel">Technologies I know</h5>
+                  <button class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>HTML 5 &amp; CSS 3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Angular JS (v.1.6)</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>MongoDB &amp; Mongoose</li>
+                    <li>PostgreSQL</li>
+                    <li>Bootstrap 3 &amp; 4</li>
+                    <li>Angular Material</li>
+                    <li>AJAX</li>
+                    <li>git &amp; Github</li>
+                    <li>NPM</li>
+                    <li>Passport.js</li>
+                    <li>APIs</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="card text-center com-sm-6 col-md-3">
