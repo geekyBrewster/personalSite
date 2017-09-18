@@ -30,18 +30,38 @@ footer{
   border: none;
 }
 
+/* TRANSPARENT BKGND IMAGE */
+.content {
+  width: 100%;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background: url('../assets/stickers_washedOut_sm.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 /* NAVBAR STYLING */
 .navbar i {
   color: #9CDEFF;
   margin: 0;
 }
 
-/* JUMBOTRON STYLING */
-.jumbotron {
-  background-image: url('../assets/shibuyaAtNight.jpg');
-  background-size: cover;
+/* TITLE STYLING */
+.titleBox {
+  background-color: rgba(40, 30, 40, 0.3);
   color: #fff;
-  text-align: right;
+  text-align: center;
   text-shadow: 2px 2px 2px #000;
   margin-bottom: 5px;
 }
@@ -113,11 +133,16 @@ footer{
 }
 
 .strengths{
-  color: #C87891;
+  color: #fff;
+}
+
+.strengthTitle {
+  color: #9CDEFF;
 }
 
 .aboutMeText {
   color: #fff;
+  background-color: rgba(40, 30, 40, 0.3);
 }
 
 .aboutMeText a {
@@ -131,6 +156,10 @@ footer{
 #myImage {
   width: 75%;
   margin: 10px 10px;
+}
+
+#frisbeeImg{
+  width: 100%;
 }
 
 /* PROJECTS STYLING */

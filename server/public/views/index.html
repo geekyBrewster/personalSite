@@ -44,95 +44,101 @@
     </nav>
   </div>
 
-  <!-- Jumbotron -->
-  <div class="jumbotron col">
-    <div class="container" id="jumboTextBox">
-      <h1 class="display-3">Amanda Kirchner</h1>
-      <p class="lead">Hi, there! I'm a Javascript Developer who likes</br>
-        problem solving through code and knitting</br>
-        while enjoying a good craft beer.</p>
-        <a class="mediaLink" href="https://github.com/geekyBrewster"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-        <a class="mediaLink" href="https://www.linkedin.com/in/kirchneramanda/"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
-        <a class="mediaLink" href="https://geekybrewsterblog.wordpress.com/"><i class="fa fa-2x fa-wordpress" aria-hidden="true"></i></a>
-        <a class="mediaLink" href="https://twitter.com/geeky_brewster"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
-        <a class="mediaLink" href="#"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i></a>
+
+
+
+  <!-- Content -->
+  <div class="container-fluid content">
+    <div class="container-fluid row titleBox">
+      <div class="box col-md-3">
+
+      </div>
+      <div class="box col-md-6">
+        <h1 class="display-3">Amanda Kirchner</h1>
+        <p class="lead">Hi, there! I'm a Javascript Developer who likes
+          problem solving through code and knitting
+          while enjoying a good craft beer.</p>
+      </div>
+      <div class="box col-md-3">
+
       </div>
     </div>
-
-    <!-- Content Rows -->
-    <div class="container-fluid card-deck contentRowDark row">
-      <div class="card text-center com-sm-6 col-md-3">
-        <img class="card-img-top icon" src="../assets/browser.png" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Lifelong Learner</h4>
-          <p class="card-text">Leaving behind 7 years of teaching creative arts to dive headlong into software development.</p>
-          <a href="./templates/aboutme.html" class="btn btn-primary">About Me</a>
+    <div class="container-fluid row">
+        <div class="card text-center com-sm-6 col-md-3">
+          <img class="card-img-top icon" src="../assets/browser.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Lifelong Learner</h4>
+            <p class="card-text">Leaving behind 7 years of teaching creative arts to dive headlong into software development.</p>
+            <a href="./views/templates/aboutme.html" class="btn btn-primary">About Me</a>
+          </div>
         </div>
-      </div>
-      <div class="card text-center com-sm-6 col-md-3">
-        <img class="card-img-top icon" src="../assets/computer_sm.png" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Problem Solver</h4>
-          <p class="card-text">Finding solutions through code and teamwork. Bugs in code are simply another problem to solve.</p>
-          <a href="./templates/projects.html" class="btn btn-primary">View Projects</a>
+        <div class="card text-center com-sm-6 col-md-3">
+          <img class="card-img-top icon" src="../assets/computer_sm.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Problem Solver</h4>
+            <p class="card-text">Finding solutions through code and teamwork. Bugs in code are simply another problem to solve.</p>
+            <a href="./templates/projects.html" class="btn btn-primary">View Projects</a>
+          </div>
         </div>
-      </div>
-      <div class="card text-center com-sm-6 col-md-3">
-        <img class="card-img-top icon" src="../assets/server.png" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Giant Nerd</h4>
-          <p class="card-text">Working with Javascript to build full stack web applications, including one to track homebrewed beer.</p>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#techModal">
-            Technologies known
-          </button>
-          <!-- MODAL W/ TECHNOLOGIES KNOWN -->
-          <!-- Modal -->
-          <div class="modal fade" id="techModal" tabindex="-1" role="dialog" aria-labelledby="techModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="techModalLabel">Technologies I know</h5>
-                  <button class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <ul>
-                    <li>HTML 5 &amp; CSS 3</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Angular JS (v.1.6)</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>MongoDB &amp; Mongoose</li>
-                    <li>PostgreSQL</li>
-                    <li>Bootstrap 3 &amp; 4</li>
-                    <li>Angular Material</li>
-                    <li>AJAX</li>
-                    <li>git &amp; Github</li>
-                    <li>NPM</li>
-                    <li>Passport.js</li>
-                    <li>APIs</li>
-                  </ul>
-                </div>
-                <div class="modal-footer">
-                  <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="card text-center com-sm-6 col-md-3">
+          <img class="card-img-top icon" src="../assets/server.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Giant Nerd</h4>
+            <p class="card-text">Working with Javascript to build full stack web applications, including one to track homebrewed beer.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#techModal">
+              Technologies Known
+            </button>
+            <!-- MODAL W/ TECHNOLOGIES KNOWN -->
+            <!-- Modal -->
+            <div class="modal fade" id="techModal" tabindex="-1" role="dialog" aria-labelledby="techModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="techModalLabel">Technologies I know</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>HTML 5 &amp; CSS 3</li>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>Angular JS (v.1.6)</li>
+                      <li>Node.js</li>
+                      <li>Express</li>
+                      <li>MongoDB &amp; Mongoose</li>
+                      <li>PostgreSQL</li>
+                      <li>Bootstrap 3 &amp; 4</li>
+                      <li>Angular Material</li>
+                      <li>AJAX</li>
+                      <li>git &amp; Github</li>
+                      <li>NPM</li>
+                      <li>Passport.js</li>
+                      <li>APIs</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card text-center com-sm-6 col-md-3">
-        <img class="card-img-top icon" src="../assets/database.png" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Secretly a Vulcan</h4>
-          <p class="card-text">Helping others learn, despite being an introvert. Logical, organized, and a stickler for code comments.</p>
-          <a href="https://geekybrewsterblog.wordpress.com/" class="btn btn-primary">Visit my blog</a>
+        <div class="card text-center com-sm-6 col-md-3">
+          <img class="card-img-top icon" src="../assets/database.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Secretly a Vulcan</h4>
+            <p class="card-text">Helping others learn, despite being an introvert. Logical, organized, and a stickler for code comments.</p>
+            <a href="https://geekybrewsterblog.wordpress.com/" class="btn btn-primary">My Blog</a>
+          </div>
         </div>
-      </div>
     </div>
 
+
+
+  </div> <!-- end of container div -->
 
     <footer>
       <hr>
