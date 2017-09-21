@@ -2,6 +2,22 @@
   /*border: 1px solid blue;*/
 }
 
+/* Color Scheme 1 - purple pink
+Lavendar: #EDD2E0
+Middle purple: #6C596E
+Dark purple: #422040
+Peach: #EDBBB4
+Pink: #DBABBE
+*/
+
+/* Color Scheme 2 - purple blue
+Dark Navy: #011638
+Purple-blue: #2E294E
+Light purple: #6C596E
+Dark purple: #422040
+Vivid purple: #9055A2
+*/
+
 body {
   background: linear-gradient(90deg, #4E3E4F, #281C29);
   font-family: 'Poppins', sans-serif;
