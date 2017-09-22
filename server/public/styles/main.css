@@ -2,7 +2,7 @@
   /*border: 1px solid blue;*/
 }
 
-/* Color Scheme 1 - purple pink
+/* Color Scheme 1 - purple peach
 Lavendar: #EDD2E0
 Middle purple: #6C596E
 Dark purple: #422040
@@ -10,12 +10,12 @@ Peach: #EDBBB4
 Pink: #DBABBE
 */
 
-/* Color Scheme 2 - purple blue
-Dark Navy: #011638
-Purple-blue: #2E294E
-Light purple: #6C596E
+/* Color Scheme 1b - purple pink
+Lavendar: #BC9EC1
+Middle purple: #6C596E
 Dark purple: #422040
-Vivid purple: #9055A2
+Peach: #FDE8E9
+Pink: #E3BAC6
 */
 
 body {
@@ -28,17 +28,17 @@ h1, h2, h3, h4 {
 }
 
 footer{
-  color: rgb(200,120,145);
+  color: #6C596E;
   text-align: right;
   margin-right: 20px;
 }
 
 .btn{
-  background-color: #C87891;
+  background-color: #BC9DC1;
   border: none;
 }
 .btn:hover {
-  background-color: #94415B;
+  background-color: #E3BAC6;
   border: none;
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -68,23 +68,52 @@ footer{
 }
 
 /* NAVBAR STYLING */
-.navbar i {
-  color: #9CDEFF;
-  margin: 0;
-}
+#navbar ul {
+  font-size: 1.2em;
+ margin: 0;
+ padding: 5px;
+ list-style-type: none;
+ text-align: left;
+ background-color: #422040;
+ }
+
+#navbar ul li {
+ display: inline;
+ }
+
+#navbar ul li a {
+ text-decoration: none;
+ padding: .2em 1em;
+ color: #FDE8E9;
+ }
+
+#navbar ul li a:hover {
+ color: #E3BAC6;
+ }
+
+ #logo {
+   color: #fff;
+ }
+
+ #logo i {
+   color: #BC9EC1;
+ }
+
+ .disabled {
+   color: #6C596E;
+ }
 
 /* TITLE STYLING */
 .titleBox {
-  background-color: rgba(40, 30, 40, 0.3);
+  background-color: rgba(66, 32, 64, 0.5);
   color: #fff;
   text-align: center;
   text-shadow: 2px 2px 2px #000;
-  margin-bottom: 5px;
 }
 
 .lead{
   font-size: 1.4em;
-  color: yellow;
+  color: #EDBBB4;
 }
 
 #jumboTextBox{
@@ -98,11 +127,16 @@ footer{
 
 /* CONTENT CARDS STYLING */
 .card {
-  background: none;
+  background-color: rgba(66, 32, 64, 0.3);
   color: #fff;
   margin: 0 auto;
 }
 
+.card-title {
+  color: #FDE8E9;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 1px #000;
+}
 .card-body {
   padding: 10px;
 }
@@ -122,14 +156,14 @@ footer{
 
 /* MODAL STYLING */
 .modal-body{
-  background-color: #4E3E4F;
+  background-color: #422040;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   text-align: left;
 }
 .modal-header, .modal-footer{
-  background-color: #634C53;
-  color: #fff;
+  background-color: #6C596E;
+  color: #FDE8E9;
 }
 
 .close {
@@ -138,13 +172,12 @@ footer{
 
 /* ABOUT ME STYLING */
 .title {
-  color: #9CDEFF;
+  color: #E3BAC6;
 }
 
 .imgframe {
     background-color: rgba(200, 120, 145, 0.5);
-    padding: 12px;
-    border: 1px solid #94415B;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -153,7 +186,7 @@ footer{
 }
 
 .strengthTitle {
-  color: #9CDEFF;
+  color: #E3BAC6;
 }
 
 .aboutMeText {
@@ -162,11 +195,7 @@ footer{
 }
 
 .aboutMeText a {
-  color: #C87891;
-}
-
-.hobbyImg {
-  padding: 5px;
+  color: #E3BAC6;
 }
 
 #myImage {
@@ -176,6 +205,10 @@ footer{
 
 #frisbeeImg{
   width: 100%;
+}
+
+#beerFlightImg {
+  width: 115%;
 }
 
 /* PROJECTS STYLING */
