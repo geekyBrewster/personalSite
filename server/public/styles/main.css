@@ -1,23 +1,13 @@
 * {
   /*border: 1px solid blue;*/
 }
-
-/* Color Scheme 1 - purple peach
+/* Color Scheme - purple peach
 Lavendar: #EDD2E0
 Middle purple: #6C596E
 Dark purple: #422040
 Peach: #EDBBB4
 Pink: #DBABBE
 */
-
-/* Color Scheme 1b - purple pink
-Lavendar: #BC9EC1
-Middle purple: #6C596E
-Dark purple: #422040
-Peach: #FDE8E9
-Pink: #E3BAC6
-*/
-
 body {
   background: linear-gradient(90deg, #4E3E4F, #281C29);
   font-family: 'Poppins', sans-serif;
@@ -27,6 +17,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Merriweather', serif;
+  color: #fff;
 }
 
 footer{
@@ -48,74 +39,14 @@ footer{
   border: none;
 }
 
-/* PARALLAX STYLING */
-
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-  position: relative;
-  opacity: 0.65;
-  background-position: center;
-  background-size: cover;
-
-}
-.bgimg-1 {
-  /*background-image: url("../assets/stickers_dark.jpg");*/
-  min-height: 500px;
-}
-
-.bgimg-2 {
-  background-image: url('../assets/inWindow.jpg');
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url('../assets/AmandaFrisbee.jpg');
-  min-height: 400px;
-}
-.bgimg-4 {
-  background-image: url("../assets/stickers_washedOut.jpg");
-  min-height: 400px;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("../assets/stickers_washedOut.jpg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 /* NAVBAR STYLING */
 #navbar ul {
   font-size: 1.2em;
- margin: 0;
- padding: 5px;
- list-style-type: none;
- text-align: left;
- background-color: #422040;
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+  text-align: left;
+  background-color: #422040;
  }
 
 #navbar ul li {
@@ -137,7 +68,7 @@ footer{
  }
 
  #logo i {
-   color: #BC9EC1;
+   color: #DBABBE;
  }
 
  .disabled {
@@ -145,115 +76,143 @@ footer{
  }
 
 /* TITLE STYLING */
-.titleBox {
-  background-color: rgba(66, 32, 64, 0.5);
-  color: #fff;
+.title {
+  font-family: 'Merriweather', serif;
+  color: #EDBBB4;
+  opacity: 1.0;
   text-align: center;
   text-shadow: 2px 2px 2px #000;
 }
-
 .lead{
-  font-size: 1.4em;
   color: #EDBBB4;
 }
 
-#jumboTextBox{
-  margin-right: 50px;
+/* CONTENT ROWS STYLING */
+.contentBox {
+  color: #DBABBE;
+  /*background-color: #422040;*/
+  background: linear-gradient(90deg, #4E3E4F, #281C29);
+  padding: 25px 50px;
+  text-align: center;
+  min-height: 250px;
 }
 
-.mediaLink {
-    color: #9CDEFF;
-    margin: 10px 10px;
+.textBox {
+  font-size: 1.1em;
 }
 
-/* CONTENT CARDS STYLING */
-.card {
-  background-color: rgba(66, 32, 64, 0.3);
-  color: #fff;
-  margin: 0 auto;
+.aboutMeText a, .textBox a{
+  color: #EDBBB4;
 }
 
-.card-title {
-  color: #FDE8E9;
-  font-size: 1.6em;
-  text-shadow: 1px 1px 1px #000;
-}
-.card-body {
-  padding: 10px;
+#frisbeeImg {
+  width: 80%;
 }
 
-.icon{
+/* PARALLAX STYLING - Home Page */
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  min-height: 500px;
+}
+
+.bgimg-2 {
+  background-image: url('../assets/img/inWindowBW.jpg');
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url('../assets/img/FFparking.jpg');
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url('../assets/img/PopBus.jpg');
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("../assets/img/stickers_washedOut.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 25%;
+  top: 45%;
   width: 50%;
-  margin: 0 auto;
+  text-align: center;
+  color: #EDBBB4;
 }
 
-.contentRowLight {
-  background-color: rgba(200, 120, 145, 0.5);
-  min-height: 250px;
-}
-.contentRowDark {
-  min-height: 250px;
-}
-
-/* MODAL STYLING */
-.modal-body{
-  background-color: #422040;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  text-align: left;
-}
-.modal-header, .modal-footer{
-  background-color: #6C596E;
-  color: #FDE8E9;
+.caption span.border {
+  background-color: rgba(0,0,0,0);
+  color: #FFF;
+  padding: 18px;
+  font-family: 'Merriweather', serif;
+  font-size: 3.0em;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #000;
 }
 
-.close {
-  color: #C87891;
+.parallax {
+    /* The image used */
+    background-image: url("../assets/img/stickers_washedOut.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* ABOUT ME STYLING */
-.title {
-  color: #E3BAC6;
+/* PARALLAX STYLING - Project Page */
+
+.projImg-1, .projImg-2, .projImg-3, .projImg-4, .projImg-5 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-size: cover;
+
+}
+.projImg-1 {
+  min-height: 500px;
 }
 
-.imgframe {
-    background-color: rgba(200, 120, 145, 0.5);
-    padding: 10px;
-    border-radius: 5px;
+.projImg-2 {
+  background-image: url('../assets/projectImg/recipe.jpg');
+  min-height: 400px;
 }
 
-.strengths{
-  color: #fff;
+.projImg-3 {
+  background-image: url('../assets/projectImg/landingPage.jpg');
+  min-height: 400px;
 }
 
-.strengthTitle {
-  color: #E3BAC6;
+.projImg-4 {
+  background-image: url('../assets/img/PopBus.jpg');
+  min-height: 400px;
 }
 
-.aboutMeText {
-  color: #fff;
-  background-color: rgba(40, 30, 40, 0.3);
+.projImg-5 {
+  background-image: url("../assets/img/stickers_washedOut.jpg");
+  min-height: 400px;
 }
 
-.aboutMeText a {
-  color: #E3BAC6;
-}
-
-#myImage {
-  width: 75%;
-  margin: 10px 10px;
-}
-
-#frisbeeImg{
+.projectImage {
   width: 100%;
+  margin: 5px;
 }
-
-#beerFlightImg {
-  width: 115%;
-}
-
-/* PROJECTS STYLING */
-.pinkTitle {
-  color: #C87891;
+.techList {
+  list-style-type: none;
   text-align: center;
 }

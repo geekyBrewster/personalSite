@@ -11,10 +11,6 @@ myApp.config(function($routeProvider, $locationProvider) {
       templateUrl: '/views/templates/home.html',
       controller: 'HomeController as hc',
     })
-    .when('/aboutme', {
-      templateUrl: '/views/templates/aboutme.html',
-      controller: 'HomeController as hc'
-    })
     .when('/projects', {
       templateUrl: '/views/templates/projects.html',
       controller: 'HomeController as hc'
