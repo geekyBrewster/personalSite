@@ -26,6 +26,11 @@ footer{
   margin-right: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: #FDE8E9;
+}
+
 .btn{
   background-color: #BC9DC1;
   border: none;
@@ -107,6 +112,23 @@ footer{
 
 #frisbeeImg {
   width: 80%;
+}
+
+/* PROJECT PAGE STYLING */
+.projectList li a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #FDE8E9;
+}
+
+.techListLeftAlign{
+  list-style-type: disc;
+  text-align: left;
+}
+
+.projDescription {
+  margin-top: 30px;
 }
 
 /* PARALLAX STYLING - Home Page */
