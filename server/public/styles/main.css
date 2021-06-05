@@ -92,6 +92,12 @@ a {
   color: #EDBBB4;
 }
 
+#myImg {
+  width: 25%;
+  border-radius: 60%;
+  margin-left: 75%;
+}
+
 /* CONTENT ROWS STYLING */
 .contentBox {
   color: #DBABBE;
@@ -167,7 +173,7 @@ a {
 .caption {
   position: absolute;
   left: 25%;
-  top: 45%;
+  top: 25%;
   width: 50%;
   text-align: center;
   color: #EDBBB4;
